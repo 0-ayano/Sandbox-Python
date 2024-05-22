@@ -1,0 +1,20 @@
+setting_windows:
+  - item: http_proxy
+    content: http:cproxy.okinawa-ct.ac.jp:8080
+
+  - item: https_proxy
+    content: http:cproxy.okinawa-ct.ac.jp:8080
+
+setting_git:
+  - item: http.proxy
+    content: http:cproxy.okinawa-ct.ac.jp:8080
+
+  - item: https.proxy
+    content: http:cproxy.okinawa-ct.ac.jp:8080
+
+setting_npm:
+  - item: proxy
+    content: http:cproxy.okinawa-ct.ac.jp:8080
+
+  - item: https-proxy
+    content: http:cproxy.okinawa-ct.ac.jp:8080
